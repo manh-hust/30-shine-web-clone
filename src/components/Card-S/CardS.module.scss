@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    .cardImg{
+        border-radius: 6px;
+    }
+    .cardContent{
+        margin-left: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 160px;
+        span{
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 1.2rem;
+            color: #727272;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,5 +1,8 @@
 import style from './Footer.module.scss'
-
+import CoThu from './img/congthuongicon.png'
+import DMCA from './img/dmca.png'
+import GPlay from './img/ggplay.png'
+import AppStore from './img/appstore.png'
 function Footer() {
 
 
@@ -8,53 +11,89 @@ function Footer() {
             <div className={style.content}>
                 <div className={style.contentLeft}>
                     <div className={style.contentLeftTop}>
-                        <span className={style.cty}>CÔNG TY CỔ PHẦN TMDV 30SHINE</span> <br/>
-                        <span className={style.text}>82 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, HN</span> <br/>
-                        <span className={style.text}>Số giấy chứng nhận kinh doanh: 010.7467.693</span> <br/>
-                        <span className={style.text}>Ngày cấp: 08/06/2016</span> <br/>
-                        <span className={style.text}>Nơi cấp: Sở kế hoạch đầu tư TP Hà Nội</span> <br/>
-                        <span className={style.textInfo}>Chính sách bảo mật thông tin</span> <br/>
-                        <span className={style.textInfo}>Liên hệ quảng cáo 30Shine</span> <br/>
+                        <span className={style.cty}>CÔNG TY CỔ PHẦN TMDV 30SHINE</span> 
+                        <span className={style.text}>82 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, HN</span> 
+                        <span className={style.text}>Số giấy chứng nhận kinh doanh: 010.7467.693</span> 
+                        <span className={style.text}>Ngày cấp: 08/06/2016</span> 
+                        <span className={style.text}>Nơi cấp: Sở kế hoạch đầu tư TP Hà Nội</span> 
+                        <span className={style.textInfo}>Chính sách bảo mật thông tin</span> 
+                        <span className={style.textInfo}>Liên hệ quảng cáo 30Shine</span> 
                     </div>
                     <div className={style.contentLeftIcons}>
-                        <img className={style.contentLeftIcon}></img>
-                        <img className={style.contentLeftIcon}></img>
+                        <img className={style.contentLeftIcon1} src={CoThu}></img>
+                        <img className={style.contentLeftIcon2} src={DMCA}></img>
                     </div>
                     <div className={style.contentLeftPay}>
                         <span className={style.text}>Chấp nhận thanh toán</span>
-                        <div className={style.contentLeftIcons}>
-                            <img className={style.contentLeftIcon}></img>
-                            <img className={style.contentLeftIcon}></img>
+                        <div className={style.Icons}>
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M58.6667 9.33325H5.33337C3.12424 9.33325 1.33337 11.1241 1.33337 13.3333V50.6666C1.33337 52.8757 3.12424 54.6666 5.33337 54.6666H58.6667C60.8758 54.6666 62.6667 52.8757 62.6667 50.6666V13.3333C62.6667 11.1241 60.8758 9.33325 58.6667 9.33325Z" fill="#243747"/>
+                            <path d="M25.3334 42.6666C31.2245 42.6666 36.0001 37.891 36.0001 31.9999C36.0001 26.1089 31.2245 21.3333 25.3334 21.3333C19.4424 21.3333 14.6667 26.1089 14.6667 31.9999C14.6667 37.891 19.4424 42.6666 25.3334 42.6666Z" fill="#E61C24"/>
+                            <path d="M38.5788 42.6666C44.4698 42.6666 49.2454 37.891 49.2454 31.9999C49.2454 26.1089 44.4698 21.3333 38.5788 21.3333C32.6877 21.3333 27.9121 26.1089 27.9121 31.9999C27.9121 37.891 32.6877 42.6666 38.5788 42.6666Z" fill="#F99F1B"/>
+                            <path d="M31.9561 23.6479C30.6954 24.6446 29.6766 25.9137 28.9763 27.3602C28.2759 28.8066 27.9121 30.3929 27.9121 31.9999C27.9121 33.607 28.2759 35.1933 28.9763 36.6397C29.6766 38.0862 30.6954 39.3553 31.9561 40.3519C33.2168 39.3553 34.2355 38.0862 34.9359 36.6397C35.6362 35.1933 36 33.607 36 31.9999C36 30.3929 35.6362 28.8066 34.9359 27.3602C34.2355 25.9137 33.2168 24.6446 31.9561 23.6479Z" fill="#F26622"/>
+                            </svg>
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M58.6667 9.33325H5.33337C3.12424 9.33325 1.33337 11.1241 1.33337 13.3333V50.6666C1.33337 52.8757 3.12424 54.6666 5.33337 54.6666H58.6667C60.8758 54.6666 62.6667 52.8757 62.6667 50.6666V13.3333C62.6667 11.1241 60.8758 9.33325 58.6667 9.33325Z" fill="#1A1876"/>
+                            <path d="M25.6508 38.4001H29.1294L31.3068 25.6321H27.8268L25.6508 38.4001Z" fill="white"/>
+                            <path d="M38.324 30.7587C37.108 30.168 36.3627 29.7733 36.3707 29.176C36.3707 28.6427 37.0014 28.0773 38.3707 28.0773C39.3797 28.0521 40.3799 28.2702 41.2867 28.7133L41.7587 25.9467C40.7584 25.5858 39.7021 25.4053 38.6387 25.4133C35.2 25.4133 32.772 27.1467 32.7574 29.6267C32.7387 31.4613 34.4907 32.4853 35.8067 33.0933C37.1614 33.7187 37.6174 34.1173 37.6107 34.676C37.6014 35.532 36.5294 35.924 35.528 35.924C34.2326 35.9543 32.9509 35.6537 31.804 35.0507L31.316 37.908C32.5565 38.3664 33.8696 38.5973 35.192 38.5893C38.8507 38.5893 41.2254 36.8773 41.252 34.228C41.2587 32.7747 40.332 31.6693 38.324 30.7587Z" fill="white"/>
+                            <path d="M50.6761 25.6439H47.9868C47.6088 25.5955 47.2255 25.673 46.896 25.8644C46.5665 26.0557 46.3093 26.3503 46.1641 26.7026L40.9961 38.3999H44.6508C44.6508 38.3999 45.2481 36.8266 45.3828 36.4813H49.8401C49.9441 36.9293 50.2641 38.3946 50.2641 38.3946H53.4934L50.6761 25.6439ZM46.3854 33.8746C46.5294 33.5053 47.9494 29.8586 48.2334 29.0866C48.7028 31.2866 48.2454 29.1519 49.2734 33.8746H46.3854Z" fill="white"/>
+                            <path d="M22.732 25.6413L19.324 34.348L18.9614 32.5787L17.7414 26.712C17.6525 26.3721 17.4437 26.0758 17.1537 25.8776C16.8636 25.6794 16.5117 25.5927 16.1627 25.6333H10.5507L10.5067 25.9C11.7827 26.2011 13.0124 26.6724 14.1627 27.3013L17.256 38.3907H20.9387L26.4174 25.6467L22.732 25.6413Z" fill="white"/>
+                            </svg>
                         </div>
                     </div>
 
                 </div>
-                <div className={style.contentMid}>
-                    <span className={style.textTime}>GIỜ PHỤC VỤ</span> <br/>
-                    <span className={style.text}>Thứ 2 đến thứ 6: 8h00 - 21h00</span><br/>
-                    <span className={style.text}>Thứ 7, chủ nhật: 7h30 - 21h00</span><br/>
-                    <button className={style.contentMid}>
 
+                <div className={style.contentMid}>
+                    <span className={style.textTime}>GIỜ PHỤC VỤ</span> 
+                    <span className={style.text}>Thứ 2 đến thứ 6: 8h00 - 21h00</span>
+                    <span className={style.text}>Thứ 7, chủ nhật: 7h30 - 21h00</span>
+                    <button className={style.btn}>
+                        HOTLINE: 1800.28.28.30(MIỄN PHÍ)
                     </button>
                 </div>
+
                 <div className={style.contentRight}>
-                    <span className={style.textTime}>TẢI ỨNG DỤNG CỦA 30SHINE</span> <br/>
-                    <span className={style.text}>Trải nghiệm đặt lịch nhanh chóng và nhiều tiện ích khác với ứng dụng 30Shine.</span><br/>
-                    <div className={style.contentRightIcons}>
-                            <img className={style.contentLeftIcon}></img>
-                            <img className={style.contentLeftIcon}></img>
+                    <span className={style.textTime}>TẢI ỨNG DỤNG CỦA 30SHINE</span> 
+                    <span className={style.text}>Trải nghiệm đặt lịch nhanh chóng và nhiều tiện ích khác với ứng dụng 30Shine.</span>
+                    <div className={style.Icons}>
+                            <img className={style.Icon} src={GPlay}></img>
+                            <img className={style.Icon} src={AppStore}></img>
                     </div>
-                    <span className={style.textTime}>THAM GIA CỘNG ĐỒNG</span> <br/>
-                    <span className={style.text}>Cùng 2.5tr thành viên 30Shine</span><br/>
-                    <div className={style.contentRightIcons}>
-                            <img className={style.contentLeftIcon}></img>
-                            <img className={style.contentLeftIcon}></img>
+                    <span className={style.textTime}>THAM GIA CỘNG ĐỒNG</span> 
+                    <span className={style.text}>Cùng 2.5tr thành viên 30Shine</span>
+                    <div className={style.IconsBot}>
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M26.023 24.1108V22.4078C25.432 22.3241 24.8359 22.2807 24.239 22.2778C16.939 22.2778 11 28.2178 11 35.5178C11 39.9958 13.238 43.9598 16.652 46.3568C14.366 43.9122 13.0952 40.6898 13.097 37.3428C13.097 30.1468 18.867 24.2788 26.023 24.1108Z" fill="#00F2EA"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M26.335 43.3889C29.592 43.3889 32.249 40.7979 32.37 37.5689L32.381 8.74395H37.647C37.5345 8.1421 37.4776 7.5312 37.477 6.91895H30.285L30.273 35.7449C30.153 38.9729 27.495 41.5629 24.239 41.5629C23.2614 41.5633 22.2985 41.3251 21.434 40.8689C21.9922 41.6478 22.7279 42.2826 23.5801 42.7208C24.4324 43.159 25.3767 43.388 26.335 43.3889ZM47.484 18.5279V16.9259C45.5487 16.9277 43.6549 16.3647 42.035 15.3059C43.4552 16.9412 45.3676 18.0718 47.485 18.5279" fill="#00F2EA"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.035 15.3051C40.4474 13.4886 39.5729 11.1576 39.574 8.74512H37.647C37.8965 10.0786 38.414 11.3475 39.1683 12.4751C39.9225 13.6027 40.8978 14.5655 42.035 15.3051ZM24.239 29.4711C22.6361 29.473 21.0993 30.1106 19.9659 31.244C18.8324 32.3774 18.1948 33.9142 18.193 35.5171C18.1941 36.6198 18.4964 37.7012 19.0675 38.6444C19.6385 39.5877 20.4565 40.357 21.433 40.8691C20.6895 39.8438 20.2891 38.6097 20.289 37.3431C20.2906 35.74 20.928 34.203 22.0615 33.0694C23.195 31.9357 24.7319 31.298 26.335 31.2961C26.958 31.2961 27.555 31.3991 28.119 31.5761V24.2331C27.528 24.1494 26.9319 24.106 26.335 24.1031C26.23 24.1031 26.127 24.1091 26.023 24.1111V29.7511C25.4461 29.5675 24.8444 29.473 24.239 29.4711Z" fill="#FF004F"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.484 18.5279V24.1179C43.754 24.1179 40.299 22.9249 37.477 20.8999V35.5169C37.477 42.8169 31.539 48.7559 24.239 48.7559C21.418 48.7559 18.802 47.8659 16.652 46.3559C17.8881 47.6889 19.3862 48.7522 21.0524 49.4792C22.7186 50.2063 24.517 50.5813 26.335 50.5809C33.635 50.5809 39.574 44.6419 39.574 37.3429V22.7259C42.4893 24.8222 45.9902 25.948 49.581 25.9439V18.7499C48.861 18.7499 48.161 18.6719 47.484 18.5269" fill="#FF004F"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M37.477 35.5171V20.9001C40.3922 22.9967 43.8933 24.1225 47.484 24.1181V18.5281C45.3669 18.0715 43.4549 16.9406 42.035 15.3051C40.8978 14.5655 39.9226 13.6027 39.1683 12.4751C38.4141 11.3475 37.8965 10.0786 37.647 8.74512H32.381L32.37 37.5701C32.249 40.7981 29.592 43.3891 26.335 43.3891C25.3768 43.3881 24.4325 43.1591 23.5803 42.7209C22.7281 42.2827 21.9924 41.6479 21.434 40.8691C20.4574 40.3571 19.6392 39.5879 19.068 38.6446C18.4967 37.7013 18.1942 36.6199 18.193 35.5171C18.1949 33.9142 18.8325 32.3774 19.9659 31.244C21.0994 30.1106 22.6361 29.473 24.239 29.4711C24.861 29.4711 25.458 29.5731 26.023 29.7511V24.1111C18.867 24.2791 13.097 30.1471 13.097 37.3431C13.097 40.8231 14.449 43.9911 16.652 46.3571C18.8729 47.9205 21.5231 48.7585 24.239 48.7561C31.539 48.7561 37.477 42.8171 37.477 35.5171Z" fill="white"/>
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="7.5" stroke="white"/>
+                    </svg>
+                    <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                    <path d="M0.00549316 44.7654V44.768C0.0415153 46.1008 0.0535226 47.4413 0.27734 48.7658C0.515566 50.167 0.856095 51.5335 1.50569 52.8053C2.38399 54.5266 3.58641 55.9808 5.11295 57.1678C6.2061 58.0203 7.40035 58.6973 8.72236 59.1243C10.6498 59.746 12.6384 59.9842 14.6562 59.996C15.915 60.0039 17.1731 60.0354 18.4325 60.0301C27.5778 59.9917 36.7233 60.0961 45.8691 59.9737C47.0825 59.9573 48.2763 59.8092 49.4674 59.5914C51.7503 59.1735 53.7678 58.1985 55.4939 56.6594C57.5057 54.8653 58.863 52.6691 59.4758 50.0188C59.8766 48.2864 59.977 46.529 59.9941 44.7651V44.4133C59.9941 44.2769 59.9422 14.4451 59.9374 14.0508C59.9242 12.9677 59.8442 11.8926 59.6413 10.8268C59.3942 9.52809 59.0452 8.26251 58.4235 7.08771C57.7667 5.84615 56.9442 4.73018 55.926 3.7547C54.3677 2.26027 52.5692 1.20362 50.4746 0.644555C48.5837 0.140246 46.6546 0.0278571 44.7111 0.0297783C44.7048 0.0210268 44.7011 0.0107274 44.7003 0H15.2885C15.2885 0.0100862 15.2885 0.0199322 15.2868 0.0297783C14.1838 0.0499506 13.0794 0.0415455 11.9821 0.177709C10.7802 0.327081 9.58953 0.552099 8.45196 0.972357C6.65998 1.63516 5.10286 2.66756 3.77293 4.04624C2.266 5.6072 1.20335 7.41359 0.640443 9.51656C0.137334 11.3928 0.0278269 13.3063 0.0251852 15.2335" fill="white"/>
+                    <path d="M31.0624 46.5554L21.2274 46.3755C18.0431 46.3129 14.8508 46.438 11.7289 45.7886C6.97977 44.8184 6.64332 40.0613 6.29127 36.071C5.80617 30.4612 5.99397 24.7495 6.90941 19.1865C7.4262 16.0651 9.46 14.2025 12.6052 13.9998C23.2225 13.2643 33.9105 13.3514 44.5043 13.6946C45.6232 13.7261 46.7497 13.898 47.8529 14.0937C53.2987 15.0483 53.4315 20.4391 53.7845 24.9772C54.1366 29.5621 53.9879 34.1705 53.3151 38.7242C52.7752 42.4945 51.7423 45.6563 47.3834 45.9615C41.922 46.3606 36.586 46.682 31.1092 46.5797C31.1094 46.5554 31.078 46.5554 31.0624 46.5554ZM25.2804 37.01C29.396 34.647 33.4331 32.3233 37.5252 29.9761C33.4019 27.6131 29.3725 25.2894 25.2804 22.9422V37.01Z" fill="#FF0000"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0">
+                    <rect width="60" height="60.0962" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
                     </div>
                 </div>
                 
             </div>
             <div className={style.bottom}>
-                
+                  <div className={style.bottomCopyright}>
+                      <span>Copyright 2015 30Shine, Inc. All Rights Reserved</span>
+                  </div>
+                  <div className={style.bottomAbout}>
+                      <span>Về 30Shine</span>
+                      <span>Tuyển dụng</span>
+                  </div>
             </div>
         </footer>
     )
