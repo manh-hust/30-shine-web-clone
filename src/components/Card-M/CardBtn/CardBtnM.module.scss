@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+}
+.card{
+    max-width: 240px;
+    height: 444px;
+    margin: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &:hover button{
+        opacity: 0.6;
+    }
+    .image{
+        border: #000000 solid 1px;
+        img{
+            max-width: 240px;
+        }
+    }
+    .content{
+        padding: 12px;
+        .name{
+            font-size: 1.1rem;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .price{
+            display: flex;
+            margin-top: 24px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            align-items: flex-end;
+            .old{
+                color: #828282;
+                font-size: 0.9rem;
+                margin: 0 0 2px 8px;
+                text-decoration-line: line-through;
+            }
+        }
+    }
+    .button{
+        width: 100%;
+        background-color: #ffcc33;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 16px;
+        margin-top: 8px;
+        button{
+            font-weight: 500;
+        }
+    }
+}

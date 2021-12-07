@@ -4,13 +4,21 @@
     .content{
         position: relative;
         text-align: center;
-        img{
+        cursor: pointer;
+        &:hover img{
+            transform: scale(1.025);
+        }
+        div{
             border-radius: 8px;
-            display: block;
-            margin: 0 auto;
-            transition: 0.2s linear;
-            &:hover{
-                transform: scale(1.05);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 100%;
+                display: block;
+                transition: 0.2s linear;
+                overflow: hidden;
+                border-radius: 8px;
             }
         }
         .text{
@@ -29,6 +37,7 @@
             }
             span{
                 max-width: 60%;
+                font-size: 1.1rem;
             }
         }
     }
