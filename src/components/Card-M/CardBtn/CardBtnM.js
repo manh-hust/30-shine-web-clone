@@ -1,7 +1,6 @@
 import style from './CardBtnM.module.scss'
-import img from '../../../assets/imgM/gom.png'
 import muiten from '../../../assets/icon/muiten.svg'
-function CardBtnM() {
+function CardBtnM({name, img, newPrice, oldPrice}) {
 
     return (
         <div className={style.card}>
@@ -9,10 +8,10 @@ function CardBtnM() {
                 <img src={img}/>
             </div>
             <div className={style.content}>
-                <h4 className={style.name}>Gôm Xịt Tóc Lady Killer - Thách thức nón bảo hiểm </h4>
+                <h4 className={style.name}>{name}</h4>
                 <div className={style.price}>
-                    <span className={style.new}>130.000 đ</span>
-                    <span className={style.old}>155.000 đ</span>
+                    <span className={style.new}>{newPrice}</span>
+                    <span className={style.old}>{oldPrice}</span>
                 </div>
             </div>
             <div className={style.button}>

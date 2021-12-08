@@ -1,0 +1,23 @@
+.card{
+    width: 570px;
+    border-radius: 8px;
+    margin: 12px;
+    cursor: pointer;
+    &:hover img{
+        transform: scale(1.025);
+    }
+    .image{
+        border-radius: 8px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: all 0.2s linear;
+        }
+    }
+    .title{
+        padding-top: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,20 @@
+.card{
+    padding: 12px;
+    cursor: pointer;
+    .cardContainer{
+        height: 405px;
+        width: 270px;
+        overflow: hidden;
+        border-radius: 10px;
+        img{
+            height: 405px;
+            width: 270px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: all .2s linear;
+            &:hover{
+                transform: scale(1.03);
+            }
+        }
+    }
+}
