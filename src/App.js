@@ -18,23 +18,26 @@ function App() {
   return (
     <div className="app">
       <Swiper 
-      slidesPerView={1}  slidesPerGroupSkip={1} 
+      slidesPerView={2.5}
+      slidesPerGroupSkip={4} 
       grabCursor={true} keyboard={{
         "enabled": true
       }} 
       spaceBetween={24}
-      breakpoints={{
-        "769": {
-          "slidesPerView": 2.5,
-          "slidesPerGroup": 1
-        }
-      }} 
       navigation={true} 
+      autoHeight={true}
+      speed={600}
+      preloadImages={true}
       className="mySwiper">
+        <SwiperSlide><img src='https://storage.30shine.com/ResourceWeb/data/images/home/30shine-safe/30shine-so-1-ve-an-toan-5.jpg'/></SwiperSlide>
+        <SwiperSlide><img src={img}/></SwiperSlide>
+        <SwiperSlide><img src='https://storage.30shine.com/ResourceWeb/data/images/home/30shine-safe/30shine-so-1-ve-an-toan-3.jpg'/></SwiperSlide>
+        <SwiperSlide><img src='https://storage.30shine.com/ResourceWeb/data/images/home/30shine-safe/30shine-so-1-ve-an-toan-4.jpg'/></SwiperSlide>
+        <SwiperSlide><img src='https://30shine-store-images.s3.ap-southeast-1.amazonaws.com/uploads/small_CTBH_Vuong_8_110c5a4cbb.png'/></SwiperSlide>
         <SwiperSlide><img src={img}/></SwiperSlide>
         <SwiperSlide><img src={img}/></SwiperSlide>
-        <SwiperSlide><img src={img}/></SwiperSlide>
-        <SwiperSlide><img src={img}/></SwiperSlide>
+        {/* <div className='swiper-button-prev'></div> */}
+        {/* <div className='swiper-button-next'></div> */}
         </Swiper>
     </div>
   );

@@ -1,8 +1,7 @@
 .app{
     width: 80%;
-    height: 60vh;
+    /* height: 60vh; */
     margin: 50px auto;
-    border: 1px solid #000000;
 }
 .mySwiper{
     width: 100%;
