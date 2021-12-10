@@ -6,6 +6,7 @@ import Inspirer30Shine from './Inspirer30Shine/Inspirer30Shine'
 import Explore from './Explore/Explore'
 import TrustAndSafe from './TrustAndSafe/TrustAndSafe'
 import Sale from './Sale/Sale'
+import Shop from './Shop/Shop';
 function Home() {
 
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Explore/>
             <TrustAndSafe/>
             <Sale/>
+            <Shop/>
         </div>
     )
 }
