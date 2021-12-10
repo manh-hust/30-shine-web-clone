@@ -1,6 +1,6 @@
 import style from './Hear.module.scss'
-import ContentCard from '../../components/ContentCard/ContentCard'
-import CardTextM from '../../components/Card-M/CardText/CardTextM'
+import ContentCard from '../../../components/ContentCard/ContentCard'
+import CardTextM from '../../../components/Card-M/CardText/CardTextM'
 function Hear(){
     const list = [
         {

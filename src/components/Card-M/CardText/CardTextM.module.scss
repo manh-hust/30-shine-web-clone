@@ -16,6 +16,11 @@
     }
     .content{
         margin-top: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
         h3{
             font-size: 1.25rem;
             cursor: pointer;

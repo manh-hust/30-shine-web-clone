@@ -1,0 +1,14 @@
+.explore{
+    .cardSGroup{
+        margin-top: 32px;
+        display: flex;
+        // align-items: center;
+        .item{
+            flex: 1;
+            
+            span, p{
+                width: 200%;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
-import ContentCard from '../../components/ContentCard/ContentCard'
+import ContentCard from '../../../components/ContentCard/ContentCard'
 import style from './Journey.module.scss'
-import CardSlider from '../../components/Card-M/CardSlider/CardSlider'
+import CardSlider from '../../../components/Card-M/CardSlider/CardSlider'
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
@@ -37,6 +37,7 @@ function Journey(){
             <ContentCard
             title={'Hành trình tỏa sáng'}
             note={'Câu chuyện chân thực từ hàng chục ngàn khách hàng'}
+            all={true}
             />
             <div className={style.swiper}>
             <Swiper 

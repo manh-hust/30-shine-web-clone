@@ -1,7 +1,7 @@
 import style from './Service.module.scss'
-import ContentCard from '../../components/ContentCard/ContentCard'
-import CardL from '../../components/Card-L/CardL'
-import CardS from '../../components/Card-S/CardS'
+import ContentCard from '../../../components/ContentCard/ContentCard'
+import CardL from '../../../components/Card-L/CardL'
+import CardS from '../../../components/Card-S/CardS'
 function Service(){
     const list = [
         {
@@ -10,19 +10,19 @@ function Service(){
             img: 'https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-cat-goi-massage-2.jpg'
         },
         {
-            title:'Cắt gội massage',
-            para: 'Bảng giá 2021(hấp dẫn)',
-            img: 'https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-cat-goi-massage-2.jpg'
+            title:'Uốn(chỉ từ 234k)',
+            para: '1 dịch vụ',
+            img: '	https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-uon-2.jpg'
         },
         {
-            title:'Cắt gội massage',
-            para: 'Bảng giá 2021(hấp dẫn)',
-            img: 'https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-cat-goi-massage-2.jpg'
+            title:'Nhuộm (chỉ từ 162k)',
+            para: '4 dịch vụ',
+            img: '	https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-nhuom-2.jpg'
         },
         {
-            title:'Cắt gội massage',
-            para: 'Bảng giá 2021(hấp dẫn)',
-            img: 'https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-cat-goi-massage-2.jpg'
+            title:'Dịch vụ khác',
+            para: '4 dịch vụ',
+            img: 'https://storage.30shine.com/ResourceWeb/data/images/newHome/service/30shine-dich-vu-khac-2.jpg'
         },
     ]
     return (
