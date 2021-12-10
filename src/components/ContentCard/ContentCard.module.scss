@@ -1,0 +1,36 @@
+.container{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    .content{
+        display: flex;
+        flex-direction: column;
+        .title{
+            font-family: 'Oswald', sans-serif;
+            font-size: 28px;
+            font-weight: 500;
+            color: #000;
+        }
+        .note{
+            font-size: 20px;
+            color: #a6a6a6;
+        }
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text{
+            color: #2f80ed;
+            font-weight: 400;
+            font-size: 18px;
+            margin-right: 12px;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

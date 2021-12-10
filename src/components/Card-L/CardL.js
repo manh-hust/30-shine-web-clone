@@ -1,5 +1,4 @@
 import style from './CardL.module.scss'
-import Img from '../../../assets/imgL/dichvu.jpg'
 import {Container} from 'reactstrap'
 
 function CardL({title, img, para}) {

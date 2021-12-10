@@ -1,7 +1,6 @@
 import style from './CardSlider.module.scss'
 function CardSlider({img, title}) {
 
-
     return (
         <div className={style.card}>
             <div className={style.image}>
