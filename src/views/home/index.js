@@ -7,6 +7,8 @@ import Explore from './Explore/Explore'
 import TrustAndSafe from './TrustAndSafe/TrustAndSafe'
 import Sale from './Sale/Sale'
 import Shop from './Shop/Shop';
+import Member from './Member/Member'
+import Moment from './Moment/Moment';
 function Home() {
 
     return (
@@ -20,6 +22,8 @@ function Home() {
             <TrustAndSafe/>
             <Sale/>
             <Shop/>
+            <Member/>
+            <Moment/>
         </div>
     )
 }
