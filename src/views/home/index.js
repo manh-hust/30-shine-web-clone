@@ -9,6 +9,8 @@ import Sale from './Sale/Sale'
 import Shop from './Shop/Shop';
 import Member from './Member/Member'
 import Moment from './Moment/Moment';
+import Care from './Care/Care';
+import Address from './Address/Address';
 function Home() {
 
     return (
@@ -24,6 +26,8 @@ function Home() {
             <Shop/>
             <Member/>
             <Moment/>
+            <Care/>
+            <Address/>
         </div>
     )
 }

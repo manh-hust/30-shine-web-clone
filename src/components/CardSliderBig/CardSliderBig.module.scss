@@ -1,0 +1,58 @@
+.cardSliderBig{
+    position: relative;
+    .swiper{
+        margin: 8px 0;
+
+        .formSDT{
+            position: absolute;
+            bottom: 30px;
+            z-index: 1;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(180deg,#81274d,#c71155);
+            border-radius: 8px;
+            max-width: 545px;
+            padding: 15px 20px;
+            .title{
+                font-family: 'Oswald';
+                font-size: 1.4rem;
+                color: #fff;
+                padding-top: 4px;
+            }
+            .note{
+                color: #fff;
+                font-size: 1.2rem;
+            }
+            .groupBtn{
+                margin-top: 12px;
+                display: flex;
+                justify-content: center;
+                .input{
+                    .inputElement{
+                        font-family: 'Roboto', sans-serif;
+                        background-color: #fff;
+                        border-radius: 8px;
+                        font-weight: 600;
+                        padding-left: 15px;
+                        height: 54px;
+                        border: 1px solid transparent;
+                        font-size: 1.3rem;
+                        margin-right: 10px;
+                        width: 340px;
+                    }
+                }
+                .button{
+                    button{
+                        height: 54px;
+                        font-family: 'Oswald';
+                        font-size: 1.4rem;
+                        background-color: #fc3;
+                        border-radius: 8px;
+                        padding: 0 8px;
+                    }
+                }
+            }
+        }
+    }
+
+}
