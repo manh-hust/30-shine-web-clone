@@ -4,18 +4,19 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './views/home';
 import CardSliderBig from './components/CardSliderBig/CardSliderBig'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 
 function App() {
   
   return (
-      <>
-      <Navbar/>
-      <CardSliderBig/>
-      <div className="app">
-        <Home/>
-      </div>
-      <Footer/>
-      </>
+      <Router>
+        <Navbar/>
+          <Switch>
+            <Route exact  path="/" component={Home}/>
+          </Switch>
+        <Footer/>
+      </Router>
   );
 }
 

@@ -1,24 +1,22 @@
 import style from './Navbar.module.scss'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/icon/log-30shine.jpg'
-import {icon} from '../../assets/icon/icon.svg'
 
 function Navbar(){
 
 
     return (
         <navigator className={style.nav}>
-            <div>
-                <img className={style.navLogo} src={logo} alt="Hehe">
-                </img>
-            </div>
+            <Link to='/'>
+                <img className={style.navLogo} src={logo} alt="Hehe"/>
+            </Link>
             <ul className={style.navList}>
-                <li className={style.navItem}>TRẢI NGHIỆM DỊCH VỤ</li>
-                <li className={style.navItem}>HÀNH TRÌNH TỎA SÁNG</li>
-                <li className={style.navItem}>KHÁM PHÁ KIỂU TÓC</li>
-                <li className={style.navItem}>30SHINE SHOP</li>
-                <li className={style.navItem}>TÌM 30SHINE GẦN NHẤT</li>
-                <li className={style.navItem}>TUYỂN DỤNG</li>
+                <li className={style.navItem}><Link to='/services'>TRẢI NGHIỆM DỊCH VỤ</Link></li>
+                <li className={style.navItem}><Link to='/journey'>HÀNH TRÌNH TỎA SÁNG</Link></li>
+                <li className={style.navItem}><Link to='/explore'>KHÁM PHÁ KIỂU TÓC</Link></li>
+                <li className={style.navItem}><a href='https://shop.30shine.com' target='_blank'>30SHINE SHOP</a></li>
+                <li className={style.navItem}><Link to='/address'>TÌM 30SHINE GẦN NHẤT</Link></li>
+                <li className={style.navItem}><a href='https://tuyendung.30shine.com/' target='_blank'>TUYỂN DỤNG</a></li>
             </ul>
             <div>
                 <button className={style.navBtn}>

@@ -11,24 +11,28 @@ import Member from './Member/Member'
 import Moment from './Moment/Moment';
 import Care from './Care/Care';
 import Address from './Address/Address';
+import CardSliderBig from '../../components/CardSliderBig/CardSliderBig';
 function Home() {
 
     return (
-        <div>
-            <Service/>
-            <Hear/>
-            <Journey/>
-            <Devices/>
-            <Inspirer30Shine/>
-            <Explore/>
-            <TrustAndSafe/>
-            <Sale/>
-            <Shop/>
-            <Member/>
-            <Moment/>
-            <Care/>
-            <Address/>
-        </div>
+        <>
+            <CardSliderBig/>
+            <div className='app'>
+                <Service/>
+                <Hear/>
+                <Journey/>
+                <Devices/>
+                <Inspirer30Shine/>
+                <Explore/>
+                <TrustAndSafe/>
+                <Sale/>
+                <Shop/>
+                <Member/>
+                <Moment/>
+                <Care/>
+                <Address/>
+            </div>
+        </>
     )
 }
 
