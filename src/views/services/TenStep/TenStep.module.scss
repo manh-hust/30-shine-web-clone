@@ -1,0 +1,13 @@
+.tenstep{
+    text-align: center;
+    .text{
+        margin: 16px;
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+    .cardGroup{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 16px;
+    }
+}
