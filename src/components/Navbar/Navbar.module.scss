@@ -1,11 +1,13 @@
 .nav{
+    position: relative;
     display:  flex;
     justify-content: center;
     align-items: center;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     padding: 0 30px;
-    box-shadow:  0 2px 8px hsl(0deg 0% 78% / 25%);
+    box-shadow: 0 2px 8px hsl(0deg 0% 78% / 25%);
+    z-index: 1000;
     .navLogo{
         width: 80px;
     }

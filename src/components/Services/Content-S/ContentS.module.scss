@@ -1,0 +1,21 @@
+.contents{
+    margin: 32px 0 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    h2{
+        font-family:  Oswald, sans-serif;
+        font-size: 20px;
+        margin-left: 12px;
+        padding: 8px;
+        margin-bottom: 0;
+    }
+    &::after{
+        content: '';
+        height: 100%;
+        width: 8px;
+        position: absolute;
+        left: 0;
+        background-color: #fc3;
+    }
+}
