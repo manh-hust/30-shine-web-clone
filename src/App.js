@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './views/home';
 import Services from './views/services'
-import CardSliderBig from './components/CardSliderBig/CardSliderBig'
+import  Journeys from './views/journey'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
@@ -16,6 +16,7 @@ function App() {
           <Switch>
             <Route exact  path="/" component={Home}/>
             <Route exact  path="/services" component={Services}/>
+            <Route exact  path="/journey" component={Journeys}/>
           </Switch>
         <Footer/>
       </Router>
