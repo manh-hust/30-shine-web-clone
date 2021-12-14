@@ -12,6 +12,8 @@ import Moment from './Moment/Moment';
 import Care from './Care/Care';
 import Address from './Address/Address';
 import CardSliderBig from '../../components/CardSliderBig/CardSliderBig';
+import './home.css'
+
 function Home() {
 
     return (

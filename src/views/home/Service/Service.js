@@ -2,6 +2,7 @@ import style from './Service.module.scss'
 import ContentCard from '../../../components/ContentCard/ContentCard'
 import CardL from '../../../components/Card-L/CardL'
 import CardS from '../../../components/Card-S/CardS'
+
 function Service(){
     const list = [
         {
@@ -31,6 +32,7 @@ function Service(){
             title={'Trải nghiệm dịch vụ'}
             note={'Thư giãn 30 phút và bạn sẽ tỏa sáng'}
             all={true}
+            path={'/services'}
             />
             <CardL
             img='https://storage.30shine.com/ResourceWeb/data/images/home/banner-dich-vu.jpg'

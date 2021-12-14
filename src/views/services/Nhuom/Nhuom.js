@@ -6,10 +6,10 @@ import CardSS from '../../../components/Services/CardSS/CardSS'
 function Nhuom() {
 
     const list = [
-        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/mat-na-sui-bot-tay-da-chet-3.jpg?v=1',
-        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-massage-covaigay-3.jpg?v=1',
-        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-lot-mun-cam-3.jpg?v=1',
-        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-detox-3.jpg?v=1'
+        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-nhuom-den-2.jpg',
+        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-nhuom-nau-2.jpg',
+        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-nhuom-do-2.jpg',
+        'https://storage.30shine.com/ResourceWeb/data/images/Service/tat-ca-dich-vu/30shine-nhuom-thoi-trang-2.jpg'
     ]
     return (
         <div className={style.nhuom}>

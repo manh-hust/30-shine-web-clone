@@ -4,7 +4,9 @@ import TenStep from "./TenStep/TenStep"
 import VipCombo from "./VipCombo/VipCombo"
 import Uon from "./Uon/Uon"
 import Nhuom from "./Nhuom/Nhuom"
+import Duong from './Duong/Duong'
 import style from './services.module.scss'
+import OtherServices from "./OtherServices/OtherServices"
 function Services() {
 
 
@@ -15,6 +17,8 @@ function Services() {
                 <VipCombo/>
                 <Uon/>
                 <Nhuom/>
+                <Duong/>
+                <OtherServices/>
             </div>
         </div>
     )

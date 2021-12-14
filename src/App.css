@@ -1,6 +1,8 @@
 .app{
     padding: 0 180px;
+    margin-bottom: 60px;
 }
+
 .mySwiper{
     width: 100%;
     height: 100%;

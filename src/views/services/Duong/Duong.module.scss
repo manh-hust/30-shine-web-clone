@@ -1,0 +1,10 @@
+.duong{
+    .cardGroup{
+        display: grid;
+        grid-template-columns: 74.55% auto;
+        grid-column-gap: 16px;
+        CardSS{
+            background-color: aqua;
+        }
+    }
+}
