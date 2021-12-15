@@ -37,6 +37,7 @@ function Journey(){
             <ContentCard
             title={'Hành trình tỏa sáng'}
             note={'Câu chuyện chân thực từ hàng chục ngàn khách hàng'}
+            path={'/journey'}
             all={true}
             />
             <div className={style.swiper}>

@@ -1,3 +1,35 @@
 .journeys{
     margin: 32px 180px 32px;
+    .content{
+        text-align: center;
+        h1{
+            margin-bottom: 36px;
+            font-family: Oswald;
+            color: #000;
+            font-size: 1.8rem;
+            padding: 4px;
+        }
+        div{
+            max-width: 880px;
+            margin: 0 auto;
+            font-size: 17px;
+            color: rgb(22, 22, 22);
+            padding-bottom: 32px;
+        }
+    }
+    .group1, .group3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px   ;
+    }
+    .group2{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .group3{
+        margin-top: 30px;
+    }
 }
